@@ -1,0 +1,6 @@
+keytool -exportcert \
+  -alias box \
+  -keystore box.p12 \
+  -storepass "$PASSWORD" \
+  -rfc \
+  -file box.cer

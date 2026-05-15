@@ -1,0 +1,6 @@
+keytool -exportcert \
+  -alias server \
+  -keystore server.p12 \
+  -storepass "$PASSWORD" \
+  -rfc \
+  -file server.cer

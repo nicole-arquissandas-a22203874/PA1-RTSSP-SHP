@@ -1,0 +1,7 @@
+keytool -importcert \
+  -alias box \
+  -file box.cer \
+  -keystore server-truststore.p12 \
+  -storetype PKCS12 \
+  -storepass "$PASSWORD" \
+  -noprompt
